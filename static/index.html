@@ -5,6 +5,11 @@
 	<title>HCI Project Portfolio</title>	
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/bootstrap-theme.min.css" rel="stylesheet">
+	<link href="css/introHCI.css" rel="stylesheet">
+	<link href = "css/introHCI.css" rel="stylesheet">
 	<!-- this is a comment in HTML -->
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -16,11 +21,11 @@
 </head>
 
 <body>
-	<div>
+	<div class="jumbotron">
 		<!-- h1 through h6 are headers. The higher the number, the smaller the header -->
 		<!-- p means paragraph -->
 		<div>
-			<h1>Michael Bernstein</h1>
+			<h1>Albert Chu</h1>
 			<p>human-computer interaction &middot; social computing &middot; crowdsourcing</p>
 		</div>
 
@@ -29,54 +34,84 @@
 		<!-- divs are invisible structuring elements that stack vertically by default. Use them to organize your code -->
 		<!-- img tags are images. Lorem Pixel will deliver random images; handy! -->
 		<!-- a are anchors, also known as hyperlinks. Use the href attribute to tell the browser where to go when the user clicks -->
-		<div id="project1">
-			<a href="project.html">
-				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image">
-				<p>Waiting in Line</p>
-			</a>
+
+		<div class="row">
+  			<div class="col-sm-6 col-md-4" id="project1">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.people.1.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Waiting in Line</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      				</div>
+    			</div>
+  			</div>
+			
+			<div class="col-sm-6 col-md-4" id="project2">
+    			<div class="thumbnail">
+    				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Needfinding</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
+
+  			<div class="col-sm-6 col-md-4" id="project3">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Prototyping</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
+
+  			<div class="col-sm-6 col-md-4" id="project4">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Heuristic Evaluation</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
+  			
+  			<div class="col-sm-6 col-md-4" id="project5">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Visualization</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
+  			
+  			<div class="col-sm-6 col-md-4" id="project6">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Social design</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
+  			
+  			<div class="col-sm-6 col-md-4" id="project7">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Gestural interaction</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
+
+  			<div class="col-sm-6 col-md-4" id="project8">
+    			<div class="thumbnail">
+      				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image" class = "img">
+      				<div class="caption"> <h3>Design tools</h3>
+        				<p><a href="project.html" class="btn btn-primary" role="button">Go!</a></p>
+      		  		</div>
+    			</div>
+  			</div>
 		</div>
-		<div id="project2">
-			<a href="project.html">
-				<img src="images/lorempixel.city.1.jpeg" alt="Lorem Pixel image">
-				<p>Needfinding</p>
-			</a>
-		</div>
-		<div id="project3">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.1.jpeg" alt="Lorem Pixel image">
-				<p>Prototyping</p>
-			</a>
-		</div>
-		<div id="project4">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.1.jpeg" alt="Lorem Pixel image">
-				<p>Heuristic Evaluation</p>
-			</a>
-		</div>
-		<div id="project5">
-			<a href="project.html">
-				<img src="images/lorempixel.abstract.8.jpeg" alt="Lorem Pixel image">
-				<p>Visualization</p>
-			</a>
-		</div>
-		<div id="project6">
-			<a href="project.html">
-				<img src="images/lorempixel.people.2.jpeg" alt="Lorem Pixel image">
-				<p>Social design</p>
-			</a>
-		</div>
-		<div id="project7">
-			<a href="project.html">
-				<img src="images/lorempixel.technics.2.jpeg" alt="Lorem Pixel image">
-				<p>Gestural interaction</p>
-			</a>
-		</div>
-		<div id="project8">
-			<a href="project.html">
-				<img src="images/lorempixel.city.2.jpeg" alt="Lorem Pixel image">
-				<p>Design tools</p>
-			</a>
-		</div>
-	</div>
+    </div>
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<!-- Include all compiled plugins (blelow), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

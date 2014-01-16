@@ -32,3 +32,9 @@ body {
      position: absolute;
      z-index: -1;	
 }
+
+.button {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+}
